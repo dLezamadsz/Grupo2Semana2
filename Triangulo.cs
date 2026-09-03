@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Taller3DVisualStudio262
+namespace Grupo2Semana1
 {
     internal class Triangulo : Figura
     {
