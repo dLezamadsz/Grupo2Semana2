@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Grupo2Semana1
+namespace Grupo2Semana2
 {
     internal class Selector
     {
