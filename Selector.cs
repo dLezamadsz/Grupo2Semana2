@@ -54,7 +54,7 @@ namespace Grupo2Semana2
                         float aC = float.Parse(Console.ReadLine());
 
                         Circulo cu = new Circulo(aC);
-                        Console.WriteLine($"Circulo: {cu.GetArea()}");
+                        Console.WriteLine($"Cuadrado: {cu.GetArea()}");
                         shapes.Add(cu);
 
                         break;
