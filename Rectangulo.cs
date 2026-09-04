@@ -8,8 +8,8 @@ namespace Pruebatanaka
 {
     internal class Rectangulo : Figura
     {
-        private float baseRectangulo;
-        private float alturaRectangulo;
+        public float baseRectangulo;
+        public float alturaRectangulo;
         public override float CalcularArea()
         {
             return baseRectangulo * alturaRectangulo;
