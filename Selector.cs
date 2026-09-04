@@ -9,7 +9,7 @@ namespace Grupo2Semana2
     internal class Selector
     {
 
-        private List<Shape> shapes;
+        private List<Figura> shapes;
 
 
         public void Seleccionar()
@@ -18,7 +18,7 @@ namespace Grupo2Semana2
 
             bool loop = true;
 
-            shapes = new List<Shape>();
+            shapes = new List<Figura>();
 
             while (loop)
             {
@@ -86,7 +86,7 @@ namespace Grupo2Semana2
 
                         for (int i = 0; i < shapes.Count; i++)
                         {
-                            Shape s = shapes[i];
+                            Figura s = shapes[i];
 
                             if (s is Rectangulo)
                             {
